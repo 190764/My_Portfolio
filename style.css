@@ -280,7 +280,7 @@
 }
 .role{
   color: #4e45d5;
-  font-weight:800 ;
+  font-weight:600 ;
 }
 .btn-pink:hover::before {
   transform: scaleX(1);
@@ -702,6 +702,8 @@
 @media (max-width: 768px) {
   .project-card {
     max-width: 100%;
+    padding-top:0rem ;
+    margin-top:0rem ;
     height: auto;
   }
 
@@ -782,6 +784,35 @@
     width: 100%; /* Full width for sub-heading */
   }
 }
+@media (max-width: 768px) {
+  .project-card {
+    width: 95%; /* Adjusted width for smaller screens */
+    max-width: 400px; /* Maximum width to control card size */
+    height: auto; /* Allow height to adjust based on content */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    gap: 2rem; /* Adjust the vertical gap between project cards */
+    padding: 2rem; /* Add padding to increase height */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Optional: Add box-shadow for visual effect */
+  }
+  
+  .project-card .project-content {
+    position: static;
+    padding: 1em; /* Adjust padding for smaller screens */
+    text-align: center; /* Center align text */
+  }
+
+  .project-skill-container {
+    display: flex;
+    justify-content: center; /* Center align skills */
+    gap: 10px; /* Adjust the gap between skill icons */
+  }
+
+  .project-sub-heading {
+    width: 100%; /* Full width for sub-heading */
+  }
+}
 
 
 .skills-container {
@@ -791,6 +822,12 @@
   /* margin: 5rem auto; */
   gap: 30px;
 }
+.highlight-text {
+  color: brown; /* Set the color */
+  font-size: 2em; /* Increase font size */
+  font-weight: bold; /* Optional: Adjust font weight */
+}
+
 
 .skill-container-left {
   width: 50%;
