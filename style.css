@@ -20,14 +20,16 @@
 }
 
 .container {
-  width: 100%;
-  z-index: -1;
-  max-width: 1550px;
+  width: 90%;
+  max-width: 1150px;
   margin: 0 auto;
-  background-color: #5461a1;
-  animation: colorChange 10s infinite;
 }
 
+.container {
+  width: 90%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
 
 .navbar {
   display: flex;
@@ -39,7 +41,6 @@
 
 .logo {
   width: 50px;
-  padding-left: 4px;
   transition: transform 0.3s ease-out;
 }
 
@@ -50,11 +51,10 @@
 }
 
 .logo-text {
-  z-index: 1;
   margin-left: 6px;
   font-size: 24px; /* Increase font size */
   font-weight: bold;
-  color:black; /* Adjust color as needed */
+  color: #333; /* Adjust color as needed */
   transition: transform 0.3s ease-out, color 0.3s ease-out;
 }
 
@@ -96,10 +96,7 @@
   }
 
   .nav-items {
-    margin-right: 4px;
-    padding-right: 4px;
     display: flex;
-    color: #0f0f0f;
     gap: 20px; /* Increase gap between navigation items */
     padding: 20px 0; /* Add padding top and bottom */
   }
@@ -113,7 +110,7 @@
 
   .nav-items div a {
     text-decoration: none;
-    color: #cd3a3a; /* Adjust color as needed */
+    color: #666; /* Adjust color as needed */
     transition: color 0.3s ease-out;
   }
 
