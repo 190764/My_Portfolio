@@ -1231,3 +1231,9 @@ footer {
 .icon-wrapper a:hover {
   color: var(--bgOrange);
 }
+.icon {
+  width: 28px;  /* Adjust size as needed */
+  height: 24px; /* Adjust size as needed */
+  vertical-align: middle; /* Align icon vertically */
+  margin: 0 5px;  /* Add some space between icons */
+}
