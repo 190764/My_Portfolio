@@ -527,8 +527,8 @@
 }
 .page-header:hover{
   color: red;
-  transform: scale(1.2);
-  transition: 0.6s;
+  /* transform: scale(1.2);
+  transition: 0.6s; */
  
 }
 
@@ -547,6 +547,11 @@
 .page-header {
   text-align: center; /* Center align the text */
 }
+
+/* .page-header {
+  font-size: 100px; 
+  animation: sizeColorChange 3s infinite; 
+} */
 
 @media (max-width: 768px) {
   .page-header {
@@ -738,11 +743,6 @@
   }
 }
 
-.page-header {
-  font-size: 100px; /* Default font size for larger screens */
-  text-align: center; /* Center align the heading */
-  animation: sizeColorChange 3s infinite; /* Apply the animation */
-}
 
 @keyframes sizeColorChange {
   0%, 100% {
