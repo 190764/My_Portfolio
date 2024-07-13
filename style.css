@@ -792,7 +792,7 @@
 
 
 #project1{
-  margin-left:110px;
+  margin: 0 auto;
   background-image: url(https://imgs.search.brave.com/T7BJytSujPy1QYEjGycirAzn5pjvPoCZX-JoF60t4xM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/Mjc4NzM2NDk0MTct/YzY3ZjcwMWYxOTQ5/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TVRKOGZI/ZGhkR05vYVc1bkpU/SXdibVYwWm14cGVI/eGxibnd3Zkh3d2ZI/eDhNQT09.jpeg);
 }
 #project2{
@@ -800,8 +800,8 @@
   margin: 0 auto;
 }
 #project3{
-  margin-left:110px;
-  background-image: url(https://imgs.search.brave.com/8OEvASxNrCBbnFJ4ESTtHmS87fnHb5mp6-auVQDFQBA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9wbGF5aW5nLXRp/Yy10YWMtdG9lLXZh/cmlhdGlvbnMtd2hp/dGUtYmFja2dyb3Vu/ZF8xMjU4NjktMTAy/My5qcGc_c2l6ZT02/MjYmZXh0PWpwZw);
+  margin: 0 auto;
+  background-image: url(https://imgs.search.brave.com/OjHfs83H0z_4t9EpaFTMsp1tIhFpwUBr8qEqQLnQm5U/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9yZXMu/Y2xvdWRpbmFyeS5j/b20vcHJhY3RpY2Fs/ZGV2L2ltYWdlL2Zl/dGNoL3MtLWotM0xO/VkFvLS0vY19saW1p/dCxmX2F1dG8sZmxf/cHJvZ3Jlc3NpdmUs/cV9hdXRvLHdfODgw/L2h0dHBzOi8vZGV2/LXRvLXVwbG9hZHMu/czMuYW1hem9uYXdz/LmNvbS9pL2QzYTJi/NDdzaHhsbWV4dDZv/NDBqLkpQRw);
 }
 #project4{
   margin-left:110px;
